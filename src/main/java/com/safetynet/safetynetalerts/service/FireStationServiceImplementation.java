@@ -13,7 +13,6 @@ import java.util.stream.Collectors;
 
 @Service
 public class FireStationServiceImplementation implements FireStationService {
-
     private FireStationRepository fireStationRepository;
     private MedicalRecordsService medicalRecordsService;
     private PersonService personService;
