@@ -1,0 +1,792 @@
+2023-10-02 12:08:38.846  INFO 13864 --- [main] c.s.s.c.FireStationControllerTest        : Starting FireStationControllerTest using Java 11.0.14 on LAPTOP-PN5D3RE4 with PID 13864 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 12:08:38.853 DEBUG 13864 --- [main] c.s.s.c.FireStationControllerTest        : Running with Spring Boot v2.4.0, Spring v5.3.1
+2023-10-02 12:08:38.856  INFO 13864 --- [main] c.s.s.c.FireStationControllerTest        : No active profile set, falling back to default profiles: default
+2023-10-02 12:08:39.769  INFO 13864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-02 12:08:40.053  INFO 13864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 12:08:40.054  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 12:08:40.055  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-10-02 12:08:40.083  INFO 13864 --- [main] c.s.s.c.FireStationControllerTest        : Started FireStationControllerTest in 1.695 seconds (JVM running for 3.109)
+2023-10-02 12:08:40.115 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 12:08:40.116 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 12:08:40.128 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 12:08:40.428  INFO 13864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 12:08:40.429  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 12:08:40.429  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 12:08:40.500 DEBUG 13864 --- [main] c.s.s.controller.FireStationController   : HTTP GET request recieved at /firestation URL
+2023-10-02 12:08:40.508  INFO 13864 --- [main] c.s.s.controller.FireStationController   : Success.The list of people served by the corresponding fire station was created.
+2023-10-02 12:08:40.543  INFO 13864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-02 12:08:40.574  INFO 13864 --- [main] c.s.s.c.FireStationControllerTest        : Starting FireStationControllerTest using Java 11.0.14 on LAPTOP-PN5D3RE4 with PID 13864 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 12:08:40.575 DEBUG 13864 --- [main] c.s.s.c.FireStationControllerTest        : Running with Spring Boot v2.4.0, Spring v5.3.1
+2023-10-02 12:08:40.576  INFO 13864 --- [main] c.s.s.c.FireStationControllerTest        : No active profile set, falling back to default profiles: default
+2023-10-02 12:08:40.816  INFO 13864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-02 12:08:40.948  INFO 13864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 12:08:40.949  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 12:08:40.949  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 12:08:40.963  INFO 13864 --- [main] c.s.s.c.FireStationControllerTest        : Started FireStationControllerTest in 0.413 seconds (JVM running for 3.989)
+2023-10-02 12:08:40.965 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 12:08:40.966 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 12:08:40.967 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 12:08:40.976  INFO 13864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 12:08:40.977  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 12:08:40.977  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 12:08:40.987  INFO 13864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-02 12:08:41.017  INFO 13864 --- [main] c.s.s.c.FireStationControllerTest        : Starting FireStationControllerTest using Java 11.0.14 on LAPTOP-PN5D3RE4 with PID 13864 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 12:08:41.018 DEBUG 13864 --- [main] c.s.s.c.FireStationControllerTest        : Running with Spring Boot v2.4.0, Spring v5.3.1
+2023-10-02 12:08:41.019  INFO 13864 --- [main] c.s.s.c.FireStationControllerTest        : No active profile set, falling back to default profiles: default
+2023-10-02 12:08:41.269  INFO 13864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-02 12:08:41.378  INFO 13864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 12:08:41.378  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 12:08:41.379  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-10-02 12:08:41.388  INFO 13864 --- [main] c.s.s.c.FireStationControllerTest        : Started FireStationControllerTest in 0.397 seconds (JVM running for 4.414)
+2023-10-02 12:08:41.390 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 12:08:41.390 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 12:08:41.391 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 12:08:41.396  INFO 13864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 12:08:41.397  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 12:08:41.397  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 12:08:41.400 DEBUG 13864 --- [main] c.s.s.controller.FireStationController   : HTTP GET request recieved at /phoneAlert URL
+2023-10-02 12:08:41.400  INFO 13864 --- [main] c.s.s.controller.FireStationController   : Success.The list of phone numbers was created.
+2023-10-02 12:08:41.412  INFO 13864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-02 12:08:41.432  INFO 13864 --- [main] c.s.s.c.FireStationControllerTest        : Starting FireStationControllerTest using Java 11.0.14 on LAPTOP-PN5D3RE4 with PID 13864 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 12:08:41.433 DEBUG 13864 --- [main] c.s.s.c.FireStationControllerTest        : Running with Spring Boot v2.4.0, Spring v5.3.1
+2023-10-02 12:08:41.434  INFO 13864 --- [main] c.s.s.c.FireStationControllerTest        : No active profile set, falling back to default profiles: default
+2023-10-02 12:08:41.622  INFO 13864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-02 12:08:41.751  INFO 13864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 12:08:41.751  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 12:08:41.753  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2023-10-02 12:08:41.761  INFO 13864 --- [main] c.s.s.c.FireStationControllerTest        : Started FireStationControllerTest in 0.347 seconds (JVM running for 4.787)
+2023-10-02 12:08:41.762 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 12:08:41.763 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 12:08:41.763 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 12:08:41.769  INFO 13864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 12:08:41.769  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 12:08:41.770  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-10-02 12:08:41.772 DEBUG 13864 --- [main] c.s.s.controller.FireStationController   : HTTP GET request recieved at /fire URL
+2023-10-02 12:08:41.775  INFO 13864 --- [main] c.s.s.controller.FireStationController   : Success. Lists of addresses and people were created.
+2023-10-02 12:08:41.783  INFO 13864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-02 12:08:41.808  INFO 13864 --- [main] c.s.s.c.FireStationControllerTest        : Starting FireStationControllerTest using Java 11.0.14 on LAPTOP-PN5D3RE4 with PID 13864 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 12:08:41.809 DEBUG 13864 --- [main] c.s.s.c.FireStationControllerTest        : Running with Spring Boot v2.4.0, Spring v5.3.1
+2023-10-02 12:08:41.809  INFO 13864 --- [main] c.s.s.c.FireStationControllerTest        : No active profile set, falling back to default profiles: default
+2023-10-02 12:08:41.997  INFO 13864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-02 12:08:42.105  INFO 13864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 12:08:42.105  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 12:08:42.105  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 12:08:42.113  INFO 13864 --- [main] c.s.s.c.FireStationControllerTest        : Started FireStationControllerTest in 0.327 seconds (JVM running for 5.139)
+2023-10-02 12:08:42.114 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 12:08:42.115 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 12:08:42.115 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 12:08:42.119  INFO 13864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 12:08:42.119  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 12:08:42.119  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 12:08:42.120 DEBUG 13864 --- [main] c.s.s.controller.FireStationController   : HTTP GET request received for /firestations URL
+2023-10-02 12:08:42.121  INFO 13864 --- [main] c.s.s.controller.FireStationController   : Success. The list of firestations is created
+2023-10-02 12:08:42.124  INFO 13864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-02 12:08:42.145  INFO 13864 --- [main] c.s.s.c.FireStationControllerTest        : Starting FireStationControllerTest using Java 11.0.14 on LAPTOP-PN5D3RE4 with PID 13864 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 12:08:42.145 DEBUG 13864 --- [main] c.s.s.c.FireStationControllerTest        : Running with Spring Boot v2.4.0, Spring v5.3.1
+2023-10-02 12:08:42.146  INFO 13864 --- [main] c.s.s.c.FireStationControllerTest        : No active profile set, falling back to default profiles: default
+2023-10-02 12:08:42.362  INFO 13864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-02 12:08:42.471  INFO 13864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 12:08:42.471  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 12:08:42.471  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 12:08:42.479  INFO 13864 --- [main] c.s.s.c.FireStationControllerTest        : Started FireStationControllerTest in 0.353 seconds (JVM running for 5.505)
+2023-10-02 12:08:42.480 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 12:08:42.480 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 12:08:42.481 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 12:08:42.485  INFO 13864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 12:08:42.485  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 12:08:42.485  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 12:08:42.487 DEBUG 13864 --- [main] c.s.s.controller.FireStationController   : HTTP GET request recieved at /fire URL
+2023-10-02 12:08:42.488  INFO 13864 --- [main] c.s.s.controller.FireStationController   : Success. Lists of households and personal information of each habitant in it were created.
+2023-10-02 12:08:42.494  INFO 13864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-02 12:08:42.513  INFO 13864 --- [main] c.s.s.c.FireStationControllerTest        : Starting FireStationControllerTest using Java 11.0.14 on LAPTOP-PN5D3RE4 with PID 13864 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 12:08:42.513 DEBUG 13864 --- [main] c.s.s.c.FireStationControllerTest        : Running with Spring Boot v2.4.0, Spring v5.3.1
+2023-10-02 12:08:42.514  INFO 13864 --- [main] c.s.s.c.FireStationControllerTest        : No active profile set, falling back to default profiles: default
+2023-10-02 12:08:42.666  INFO 13864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-02 12:08:42.739  INFO 13864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 12:08:42.739  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 12:08:42.740  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-10-02 12:08:42.746  INFO 13864 --- [main] c.s.s.c.FireStationControllerTest        : Started FireStationControllerTest in 0.25 seconds (JVM running for 5.771)
+2023-10-02 12:08:42.747 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 12:08:42.747 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 12:08:42.748 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 12:08:42.753  INFO 13864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 12:08:42.753  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 12:08:42.754  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 12:08:42.832 DEBUG 13864 --- [main] c.s.s.controller.FireStationController   : HTTP POST request recieved at /firestation URL
+2023-10-02 12:08:42.832  INFO 13864 --- [main] c.s.s.controller.FireStationController   : Success. The firestation is created
+2023-10-02 12:08:42.835  INFO 13864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-02 12:08:42.852  INFO 13864 --- [main] c.s.s.c.FireStationControllerTest        : Starting FireStationControllerTest using Java 11.0.14 on LAPTOP-PN5D3RE4 with PID 13864 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 12:08:42.852 DEBUG 13864 --- [main] c.s.s.c.FireStationControllerTest        : Running with Spring Boot v2.4.0, Spring v5.3.1
+2023-10-02 12:08:42.853  INFO 13864 --- [main] c.s.s.c.FireStationControllerTest        : No active profile set, falling back to default profiles: default
+2023-10-02 12:08:42.983  INFO 13864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-02 12:08:43.056  INFO 13864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 12:08:43.056  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 12:08:43.056  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 12:08:43.062  INFO 13864 --- [main] c.s.s.c.FireStationControllerTest        : Started FireStationControllerTest in 0.225 seconds (JVM running for 6.088)
+2023-10-02 12:08:43.064 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 12:08:43.064 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 12:08:43.064 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 12:08:43.067  INFO 13864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 12:08:43.068  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 12:08:43.068  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 12:08:43.070 DEBUG 13864 --- [main] c.s.s.controller.FireStationController   : HTTP DELETE request recieved at /firestation URL
+2023-10-02 12:08:43.070  INFO 13864 --- [main] c.s.s.controller.FireStationController   : Success. The firestation deleted
+2023-10-02 12:08:43.073  INFO 13864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-02 12:08:43.077  INFO 13864 --- [main] .b.t.a.w.s.WebMvcTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.safetynet.safetynetalerts.controllerTest.MedicalRecordControllerTest], using SpringBootContextLoader
+2023-10-02 12:08:43.077  INFO 13864 --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.safetynet.safetynetalerts.controllerTest.MedicalRecordControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-10-02 12:08:43.077  INFO 13864 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.safetynet.safetynetalerts.controllerTest.MedicalRecordControllerTest]: MedicalRecordControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-10-02 12:08:43.080  INFO 13864 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.safetynet.safetynetalerts.SafetyNetAlertsApp for test class com.safetynet.safetynetalerts.controllerTest.MedicalRecordControllerTest
+2023-10-02 12:08:43.080  INFO 13864 --- [main] .b.t.a.w.s.WebMvcTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-10-02 12:08:43.081  INFO 13864 --- [main] .b.t.a.w.s.WebMvcTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7c946bca, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7f99a0a7, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5c85429c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@49099d93, org.springframework.test.context.support.DirtiesContextTestExecutionListener@169c7543, org.springframework.test.context.event.EventPublishingTestExecutionListener@24b263af, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@52d55407, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@57b5aecb, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@22f6ff13, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@15ee4ff9, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6de3442f, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@17da6cae]
+2023-10-02 12:08:43.099  INFO 13864 --- [main] c.s.s.c.MedicalRecordControllerTest      : Starting MedicalRecordControllerTest using Java 11.0.14 on LAPTOP-PN5D3RE4 with PID 13864 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 12:08:43.100 DEBUG 13864 --- [main] c.s.s.c.MedicalRecordControllerTest      : Running with Spring Boot v2.4.0, Spring v5.3.1
+2023-10-02 12:08:43.100  INFO 13864 --- [main] c.s.s.c.MedicalRecordControllerTest      : No active profile set, falling back to default profiles: default
+2023-10-02 12:08:43.203  INFO 13864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-02 12:08:43.280  INFO 13864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 12:08:43.280  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 12:08:43.281  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-10-02 12:08:43.288  INFO 13864 --- [main] c.s.s.c.MedicalRecordControllerTest      : Started MedicalRecordControllerTest in 0.204 seconds (JVM running for 6.314)
+2023-10-02 12:08:43.289 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 12:08:43.289 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 12:08:43.289 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 12:08:43.292  INFO 13864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 12:08:43.292  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 12:08:43.293  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-10-02 12:08:43.294 DEBUG 13864 --- [main] c.s.s.c.MedicalRecordsController         : HTTP GET request received for /medicalRecords URL
+2023-10-02 12:08:43.294  INFO 13864 --- [main] c.s.s.c.MedicalRecordsController         : Success. The list of medical records is received
+2023-10-02 12:08:43.299  INFO 13864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-02 12:08:43.314  INFO 13864 --- [main] c.s.s.c.MedicalRecordControllerTest      : Starting MedicalRecordControllerTest using Java 11.0.14 on LAPTOP-PN5D3RE4 with PID 13864 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 12:08:43.314 DEBUG 13864 --- [main] c.s.s.c.MedicalRecordControllerTest      : Running with Spring Boot v2.4.0, Spring v5.3.1
+2023-10-02 12:08:43.315  INFO 13864 --- [main] c.s.s.c.MedicalRecordControllerTest      : No active profile set, falling back to default profiles: default
+2023-10-02 12:08:43.427  INFO 13864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-02 12:08:43.506  INFO 13864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 12:08:43.506  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 12:08:43.507  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-10-02 12:08:43.513  INFO 13864 --- [main] c.s.s.c.MedicalRecordControllerTest      : Started MedicalRecordControllerTest in 0.212 seconds (JVM running for 6.539)
+2023-10-02 12:08:43.513 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 12:08:43.513 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 12:08:43.515 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 12:08:43.518  INFO 13864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 12:08:43.518  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 12:08:43.519  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-10-02 12:08:43.521 DEBUG 13864 --- [main] c.s.s.c.MedicalRecordsController         : HTTP GET request recieved at /medicalRecord URL
+2023-10-02 12:08:43.521  INFO 13864 --- [main] c.s.s.c.MedicalRecordsController         : Success. The medical record is founded
+2023-10-02 12:08:43.524  INFO 13864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-02 12:08:43.538  INFO 13864 --- [main] c.s.s.c.MedicalRecordControllerTest      : Starting MedicalRecordControllerTest using Java 11.0.14 on LAPTOP-PN5D3RE4 with PID 13864 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 12:08:43.539 DEBUG 13864 --- [main] c.s.s.c.MedicalRecordControllerTest      : Running with Spring Boot v2.4.0, Spring v5.3.1
+2023-10-02 12:08:43.539  INFO 13864 --- [main] c.s.s.c.MedicalRecordControllerTest      : No active profile set, falling back to default profiles: default
+2023-10-02 12:08:43.648  INFO 13864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-02 12:08:43.723  INFO 13864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 12:08:43.723  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 12:08:43.723  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 12:08:43.729  INFO 13864 --- [main] c.s.s.c.MedicalRecordControllerTest      : Started MedicalRecordControllerTest in 0.203 seconds (JVM running for 6.755)
+2023-10-02 12:08:43.730 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 12:08:43.730 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 12:08:43.730 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 12:08:43.733  INFO 13864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 12:08:43.733  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 12:08:43.733  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 12:08:43.743 DEBUG 13864 --- [main] c.s.s.c.MedicalRecordsController         : HTTP PUT request recieved at /medicalRecord URL
+2023-10-02 12:08:43.744  INFO 13864 --- [main] c.s.s.c.MedicalRecordsController         : Success. The medical record is updated
+2023-10-02 12:08:43.746  INFO 13864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-02 12:08:43.764  INFO 13864 --- [main] c.s.s.c.MedicalRecordControllerTest      : Starting MedicalRecordControllerTest using Java 11.0.14 on LAPTOP-PN5D3RE4 with PID 13864 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 12:08:43.764 DEBUG 13864 --- [main] c.s.s.c.MedicalRecordControllerTest      : Running with Spring Boot v2.4.0, Spring v5.3.1
+2023-10-02 12:08:43.764  INFO 13864 --- [main] c.s.s.c.MedicalRecordControllerTest      : No active profile set, falling back to default profiles: default
+2023-10-02 12:08:43.862  INFO 13864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-02 12:08:43.931  INFO 13864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 12:08:43.932  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 12:08:43.932  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 12:08:43.937  INFO 13864 --- [main] c.s.s.c.MedicalRecordControllerTest      : Started MedicalRecordControllerTest in 0.189 seconds (JVM running for 6.963)
+2023-10-02 12:08:43.938 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 12:08:43.938 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 12:08:43.938 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 12:08:43.940  INFO 13864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 12:08:43.940  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 12:08:43.940  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 12:08:43.945 DEBUG 13864 --- [main] c.s.s.c.MedicalRecordsController         : HTTP DELETE request recieved at /medicalRecord URL
+2023-10-02 12:08:43.945  INFO 13864 --- [main] c.s.s.c.MedicalRecordsController         : Success. The medical record deleted
+2023-10-02 12:08:43.948  INFO 13864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-02 12:08:43.961  INFO 13864 --- [main] c.s.s.c.MedicalRecordControllerTest      : Starting MedicalRecordControllerTest using Java 11.0.14 on LAPTOP-PN5D3RE4 with PID 13864 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 12:08:43.961 DEBUG 13864 --- [main] c.s.s.c.MedicalRecordControllerTest      : Running with Spring Boot v2.4.0, Spring v5.3.1
+2023-10-02 12:08:43.961  INFO 13864 --- [main] c.s.s.c.MedicalRecordControllerTest      : No active profile set, falling back to default profiles: default
+2023-10-02 12:08:44.061  INFO 13864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-02 12:08:44.123  INFO 13864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 12:08:44.123  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 12:08:44.124  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-10-02 12:08:44.129  INFO 13864 --- [main] c.s.s.c.MedicalRecordControllerTest      : Started MedicalRecordControllerTest in 0.179 seconds (JVM running for 7.155)
+2023-10-02 12:08:44.130 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 12:08:44.130 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 12:08:44.130 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 12:08:44.133  INFO 13864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 12:08:44.133  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 12:08:44.133  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 12:08:44.137 DEBUG 13864 --- [main] c.s.s.c.MedicalRecordsController         : HTTP POST request recieved at /medicalRecord URL
+2023-10-02 12:08:44.137  INFO 13864 --- [main] c.s.s.c.MedicalRecordsController         : Success. The medical record is created
+2023-10-02 12:08:44.140  INFO 13864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-02 12:08:44.143  INFO 13864 --- [main] .b.t.a.w.s.WebMvcTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.safetynet.safetynetalerts.controllerTest.PersonControllerTest], using SpringBootContextLoader
+2023-10-02 12:08:44.143  INFO 13864 --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.safetynet.safetynetalerts.controllerTest.PersonControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-10-02 12:08:44.143  INFO 13864 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.safetynet.safetynetalerts.controllerTest.PersonControllerTest]: PersonControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-10-02 12:08:44.145  INFO 13864 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.safetynet.safetynetalerts.SafetyNetAlertsApp for test class com.safetynet.safetynetalerts.controllerTest.PersonControllerTest
+2023-10-02 12:08:44.146  INFO 13864 --- [main] .b.t.a.w.s.WebMvcTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-10-02 12:08:44.147  INFO 13864 --- [main] .b.t.a.w.s.WebMvcTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7d9b0c1f, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@b74ce29, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@14788eec, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@3978cbe6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1c26d322, org.springframework.test.context.event.EventPublishingTestExecutionListener@318e5309, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6151a43a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1e09740d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@349c0b2d, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@774900ac, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1bd51a0b, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4e29ac60]
+2023-10-02 12:08:44.166  INFO 13864 --- [main] c.s.s.c.PersonControllerTest             : Starting PersonControllerTest using Java 11.0.14 on LAPTOP-PN5D3RE4 with PID 13864 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 12:08:44.166 DEBUG 13864 --- [main] c.s.s.c.PersonControllerTest             : Running with Spring Boot v2.4.0, Spring v5.3.1
+2023-10-02 12:08:44.167  INFO 13864 --- [main] c.s.s.c.PersonControllerTest             : No active profile set, falling back to default profiles: default
+2023-10-02 12:08:44.273  INFO 13864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-02 12:08:44.345  INFO 13864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 12:08:44.346  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 12:08:44.346  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 12:08:44.352  INFO 13864 --- [main] c.s.s.c.PersonControllerTest             : Started PersonControllerTest in 0.202 seconds (JVM running for 7.377)
+2023-10-02 12:08:44.353 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 12:08:44.353 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 12:08:44.353 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 12:08:44.356  INFO 13864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 12:08:44.356  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 12:08:44.356  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 12:08:44.357  INFO 13864 --- [main] c.s.s.controller.PersonController        : Success.The list of all emails in the provided city was created.
+2023-10-02 12:08:44.360  INFO 13864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-02 12:08:44.373  INFO 13864 --- [main] c.s.s.c.PersonControllerTest             : Starting PersonControllerTest using Java 11.0.14 on LAPTOP-PN5D3RE4 with PID 13864 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 12:08:44.374 DEBUG 13864 --- [main] c.s.s.c.PersonControllerTest             : Running with Spring Boot v2.4.0, Spring v5.3.1
+2023-10-02 12:08:44.374  INFO 13864 --- [main] c.s.s.c.PersonControllerTest             : No active profile set, falling back to default profiles: default
+2023-10-02 12:08:44.470  INFO 13864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-02 12:08:44.527  INFO 13864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 12:08:44.527  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 12:08:44.527  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 12:08:44.532  INFO 13864 --- [main] c.s.s.c.PersonControllerTest             : Started PersonControllerTest in 0.17 seconds (JVM running for 7.558)
+2023-10-02 12:08:44.533 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 12:08:44.533 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 12:08:44.533 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 12:08:44.535  INFO 13864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 12:08:44.535  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 12:08:44.535  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 12:08:44.538 DEBUG 13864 --- [main] c.s.s.controller.PersonController        : HTTP DELETE request received for /person URL
+2023-10-02 12:08:44.538  INFO 13864 --- [main] c.s.s.controller.PersonController        : Success. The firestation deleted
+2023-10-02 12:08:44.540  INFO 13864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-02 12:08:44.558  INFO 13864 --- [main] c.s.s.c.PersonControllerTest             : Starting PersonControllerTest using Java 11.0.14 on LAPTOP-PN5D3RE4 with PID 13864 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 12:08:44.558 DEBUG 13864 --- [main] c.s.s.c.PersonControllerTest             : Running with Spring Boot v2.4.0, Spring v5.3.1
+2023-10-02 12:08:44.558  INFO 13864 --- [main] c.s.s.c.PersonControllerTest             : No active profile set, falling back to default profiles: default
+2023-10-02 12:08:44.677  INFO 13864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-02 12:08:44.749  INFO 13864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 12:08:44.749  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 12:08:44.749  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 12:08:44.755  INFO 13864 --- [main] c.s.s.c.PersonControllerTest             : Started PersonControllerTest in 0.211 seconds (JVM running for 7.78)
+2023-10-02 12:08:44.755 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 12:08:44.756 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 12:08:44.756 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 12:08:44.758  INFO 13864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 12:08:44.758  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 12:08:44.758  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 12:08:44.762 DEBUG 13864 --- [main] c.s.s.controller.PersonController        : HTTP PUT request received for /person URL
+2023-10-02 12:08:44.762 ERROR 13864 --- [main] c.s.s.controller.PersonController        : ERROR During HTTP PUT request.The person not updated
+2023-10-02 12:08:44.764  INFO 13864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-02 12:08:44.777  INFO 13864 --- [main] c.s.s.c.PersonControllerTest             : Starting PersonControllerTest using Java 11.0.14 on LAPTOP-PN5D3RE4 with PID 13864 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 12:08:44.777 DEBUG 13864 --- [main] c.s.s.c.PersonControllerTest             : Running with Spring Boot v2.4.0, Spring v5.3.1
+2023-10-02 12:08:44.777  INFO 13864 --- [main] c.s.s.c.PersonControllerTest             : No active profile set, falling back to default profiles: default
+2023-10-02 12:08:44.892  INFO 13864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-02 12:08:44.957  INFO 13864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 12:08:44.957  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 12:08:44.957  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 12:08:44.963  INFO 13864 --- [main] c.s.s.c.PersonControllerTest             : Started PersonControllerTest in 0.197 seconds (JVM running for 7.989)
+2023-10-02 12:08:44.964 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 12:08:44.964 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 12:08:44.964 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 12:08:44.967  INFO 13864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 12:08:44.967  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 12:08:44.967  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 12:08:44.969 DEBUG 13864 --- [main] c.s.s.controller.PersonController        : HTTP GET request received for /childAlert URL
+2023-10-02 12:08:44.969  INFO 13864 --- [main] c.s.s.controller.PersonController        : Success.The personal information for the provided person was found.
+2023-10-02 12:08:44.973  INFO 13864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-02 12:08:44.990  INFO 13864 --- [main] c.s.s.c.PersonControllerTest             : Starting PersonControllerTest using Java 11.0.14 on LAPTOP-PN5D3RE4 with PID 13864 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 12:08:44.991 DEBUG 13864 --- [main] c.s.s.c.PersonControllerTest             : Running with Spring Boot v2.4.0, Spring v5.3.1
+2023-10-02 12:08:44.991  INFO 13864 --- [main] c.s.s.c.PersonControllerTest             : No active profile set, falling back to default profiles: default
+2023-10-02 12:08:45.085  INFO 13864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-02 12:08:45.148  INFO 13864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 12:08:45.148  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 12:08:45.148  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 12:08:45.154  INFO 13864 --- [main] c.s.s.c.PersonControllerTest             : Started PersonControllerTest in 0.178 seconds (JVM running for 8.18)
+2023-10-02 12:08:45.154 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 12:08:45.154 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 12:08:45.155 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 12:08:45.157  INFO 13864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 12:08:45.157  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 12:08:45.157  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 12:08:45.158 DEBUG 13864 --- [main] c.s.s.controller.PersonController        : HTTP GET request received for /childAlert URL
+2023-10-02 12:08:45.160  INFO 13864 --- [main] c.s.s.controller.PersonController        : Success.The list of children and other persons living at provided address was created.
+2023-10-02 12:08:45.162  INFO 13864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-02 12:08:45.178  INFO 13864 --- [main] c.s.s.c.PersonControllerTest             : Starting PersonControllerTest using Java 11.0.14 on LAPTOP-PN5D3RE4 with PID 13864 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 12:08:45.178 DEBUG 13864 --- [main] c.s.s.c.PersonControllerTest             : Running with Spring Boot v2.4.0, Spring v5.3.1
+2023-10-02 12:08:45.179  INFO 13864 --- [main] c.s.s.c.PersonControllerTest             : No active profile set, falling back to default profiles: default
+2023-10-02 12:08:45.270  INFO 13864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-02 12:08:45.335  INFO 13864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 12:08:45.335  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 12:08:45.335  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 12:08:45.341  INFO 13864 --- [main] c.s.s.c.PersonControllerTest             : Started PersonControllerTest in 0.177 seconds (JVM running for 8.367)
+2023-10-02 12:08:45.344 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 12:08:45.345 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 12:08:45.345 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 12:08:45.348  INFO 13864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 12:08:45.348  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 12:08:45.348  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 12:08:45.349 DEBUG 13864 --- [main] c.s.s.controller.PersonController        : HTTP GET request received for /persons URL
+2023-10-02 12:08:45.349  INFO 13864 --- [main] c.s.s.controller.PersonController        : Success. The list of persons is created
+2023-10-02 12:08:45.353  INFO 13864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-02 12:08:45.365  INFO 13864 --- [main] c.s.s.c.PersonControllerTest             : Starting PersonControllerTest using Java 11.0.14 on LAPTOP-PN5D3RE4 with PID 13864 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 12:08:45.366 DEBUG 13864 --- [main] c.s.s.c.PersonControllerTest             : Running with Spring Boot v2.4.0, Spring v5.3.1
+2023-10-02 12:08:45.366  INFO 13864 --- [main] c.s.s.c.PersonControllerTest             : No active profile set, falling back to default profiles: default
+2023-10-02 12:08:45.468  INFO 13864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-02 12:08:45.538  INFO 13864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 12:08:45.539  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 12:08:45.539  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 12:08:45.545  INFO 13864 --- [main] c.s.s.c.PersonControllerTest             : Started PersonControllerTest in 0.19 seconds (JVM running for 8.571)
+2023-10-02 12:08:45.545 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 12:08:45.545 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 12:08:45.546 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 12:08:45.548  INFO 13864 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 12:08:45.548  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 12:08:45.548  INFO 13864 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 12:08:45.552 DEBUG 13864 --- [main] c.s.s.controller.PersonController        : HTTP POST request received for /person URL
+2023-10-02 12:08:45.552  INFO 13864 --- [main] c.s.s.controller.PersonController        : Success. The person is created
+2023-10-02 12:08:45.554  INFO 13864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-02 12:08:45.556  INFO 13864 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.safetynet.safetynetalerts.SafetyNetAlertsAppTests], using SpringBootContextLoader
+2023-10-02 12:08:45.557  INFO 13864 --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.safetynet.safetynetalerts.SafetyNetAlertsAppTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-10-02 12:08:45.557  INFO 13864 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.safetynet.safetynetalerts.SafetyNetAlertsAppTests]: SafetyNetAlertsAppTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-10-02 12:08:45.561  INFO 13864 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.safetynet.safetynetalerts.SafetyNetAlertsApp for test class com.safetynet.safetynetalerts.SafetyNetAlertsAppTests
+2023-10-02 12:08:45.565  INFO 13864 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-10-02 12:08:45.566  INFO 13864 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@52f387a8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6ccc41e7, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@39659540, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@8a4f94f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4624f134, org.springframework.test.context.event.EventPublishingTestExecutionListener@48e9436e, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5d3310a6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7272f4ce, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@13be06e5, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@114ec5cf, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@543d5160, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@310c1bad]
+2023-10-02 12:08:45.580  INFO 13864 --- [main] c.s.s.SafetyNetAlertsAppTests            : Starting SafetyNetAlertsAppTests using Java 11.0.14 on LAPTOP-PN5D3RE4 with PID 13864 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 12:08:45.581 DEBUG 13864 --- [main] c.s.s.SafetyNetAlertsAppTests            : Running with Spring Boot v2.4.0, Spring v5.3.1
+2023-10-02 12:08:45.581  INFO 13864 --- [main] c.s.s.SafetyNetAlertsAppTests            : No active profile set, falling back to default profiles: default
+2023-10-02 12:08:46.007  INFO 13864 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-10-02 12:08:46.206  INFO 13864 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2023-10-02 12:08:46.230  INFO 13864 --- [main] c.s.s.SafetyNetAlertsAppTests            : Started SafetyNetAlertsAppTests in 0.662 seconds (JVM running for 9.256)
+2023-10-02 12:08:46.271 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 12:08:46.271 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 12:08:46.271 DEBUG 13864 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 12:08:46.342  INFO 13864 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-10-02 13:04:36.908  INFO 17472 --- [main] c.s.s.c.FireStationControllerTest        : Starting FireStationControllerTest using Java 17.0.6 on LAPTOP-PN5D3RE4 with PID 17472 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 13:04:36.909 DEBUG 17472 --- [main] c.s.s.c.FireStationControllerTest        : Running with Spring Boot v2.5.6, Spring v5.3.12
+2023-10-02 13:04:36.910  INFO 17472 --- [main] c.s.s.c.FireStationControllerTest        : No active profile set, falling back to default profiles: default
+2023-10-02 13:04:37.908  INFO 17472 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:04:37.908  INFO 17472 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:04:37.909  INFO 17472 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-10-02 13:04:37.938  INFO 17472 --- [main] c.s.s.c.FireStationControllerTest        : Started FireStationControllerTest in 1.355 seconds (JVM running for 2.166)
+2023-10-02 13:04:37.954 DEBUG 17472 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 13:04:37.955 DEBUG 17472 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 13:04:37.961 DEBUG 17472 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 13:04:38.230  INFO 17472 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:04:38.230  INFO 17472 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:04:38.231  INFO 17472 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-10-02 13:04:38.273 DEBUG 17472 --- [main] c.s.s.controller.FireStationController   : HTTP GET request recieved at /firestation URL
+2023-10-02 13:04:38.280  INFO 17472 --- [main] c.s.s.controller.FireStationController   : Success.The list of people served by the corresponding fire station was created.
+2023-10-02 13:04:38.339  INFO 17472 --- [main] c.s.s.c.FireStationControllerTest        : Starting FireStationControllerTest using Java 17.0.6 on LAPTOP-PN5D3RE4 with PID 17472 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 13:04:38.339 DEBUG 17472 --- [main] c.s.s.c.FireStationControllerTest        : Running with Spring Boot v2.5.6, Spring v5.3.12
+2023-10-02 13:04:38.340  INFO 17472 --- [main] c.s.s.c.FireStationControllerTest        : No active profile set, falling back to default profiles: default
+2023-10-02 13:04:38.618  INFO 17472 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:04:38.619  INFO 17472 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:04:38.619  INFO 17472 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 13:04:38.628  INFO 17472 --- [main] c.s.s.c.FireStationControllerTest        : Started FireStationControllerTest in 0.313 seconds (JVM running for 2.857)
+2023-10-02 13:04:38.630 DEBUG 17472 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 13:04:38.630 DEBUG 17472 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 13:04:38.631 DEBUG 17472 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 13:04:38.638  INFO 17472 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:04:38.638  INFO 17472 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:04:38.639  INFO 17472 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-10-02 13:04:38.674  INFO 17472 --- [main] c.s.s.c.FireStationControllerTest        : Starting FireStationControllerTest using Java 17.0.6 on LAPTOP-PN5D3RE4 with PID 17472 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 13:04:38.675 DEBUG 17472 --- [main] c.s.s.c.FireStationControllerTest        : Running with Spring Boot v2.5.6, Spring v5.3.12
+2023-10-02 13:04:38.676  INFO 17472 --- [main] c.s.s.c.FireStationControllerTest        : No active profile set, falling back to default profiles: default
+2023-10-02 13:04:39.078  INFO 17472 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:04:39.078  INFO 17472 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:04:39.079  INFO 17472 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-10-02 13:04:39.092  INFO 17472 --- [main] c.s.s.c.FireStationControllerTest        : Started FireStationControllerTest in 0.445 seconds (JVM running for 3.32)
+2023-10-02 13:04:39.094 DEBUG 17472 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 13:04:39.094 DEBUG 17472 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 13:04:39.095 DEBUG 17472 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 13:04:39.101  INFO 17472 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:04:39.102  INFO 17472 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:04:39.102  INFO 17472 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 13:04:39.104 DEBUG 17472 --- [main] c.s.s.controller.FireStationController   : HTTP GET request recieved at /phoneAlert URL
+2023-10-02 13:04:39.106  INFO 17472 --- [main] c.s.s.controller.FireStationController   : Success.The list of phone numbers was created.
+2023-10-02 13:04:39.152  INFO 17472 --- [main] c.s.s.c.FireStationControllerTest        : Starting FireStationControllerTest using Java 17.0.6 on LAPTOP-PN5D3RE4 with PID 17472 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 13:04:39.152 DEBUG 17472 --- [main] c.s.s.c.FireStationControllerTest        : Running with Spring Boot v2.5.6, Spring v5.3.12
+2023-10-02 13:04:39.153  INFO 17472 --- [main] c.s.s.c.FireStationControllerTest        : No active profile set, falling back to default profiles: default
+2023-10-02 13:04:39.497  INFO 17472 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:04:39.497  INFO 17472 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:04:39.498  INFO 17472 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 13:04:39.509  INFO 17472 --- [main] c.s.s.c.FireStationControllerTest        : Started FireStationControllerTest in 0.382 seconds (JVM running for 3.737)
+2023-10-02 13:04:39.510 DEBUG 17472 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 13:04:39.510 DEBUG 17472 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 13:04:39.511 DEBUG 17472 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 13:04:39.516  INFO 17472 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:04:39.516  INFO 17472 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:04:39.517  INFO 17472 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-10-02 13:04:39.520 DEBUG 17472 --- [main] c.s.s.controller.FireStationController   : HTTP GET request recieved at /fire URL
+2023-10-02 13:04:39.522  INFO 17472 --- [main] c.s.s.controller.FireStationController   : Success. Lists of addresses and people were created.
+2023-10-02 13:04:39.552  INFO 17472 --- [main] c.s.s.c.FireStationControllerTest        : Starting FireStationControllerTest using Java 17.0.6 on LAPTOP-PN5D3RE4 with PID 17472 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 13:04:39.553 DEBUG 17472 --- [main] c.s.s.c.FireStationControllerTest        : Running with Spring Boot v2.5.6, Spring v5.3.12
+2023-10-02 13:04:39.553  INFO 17472 --- [main] c.s.s.c.FireStationControllerTest        : No active profile set, falling back to default profiles: default
+2023-10-02 13:04:39.865  INFO 17472 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:04:39.865  INFO 17472 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:04:39.865  INFO 17472 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 13:04:39.873  INFO 17472 --- [main] c.s.s.c.FireStationControllerTest        : Started FireStationControllerTest in 0.342 seconds (JVM running for 4.102)
+2023-10-02 13:04:39.874 DEBUG 17472 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 13:04:39.875 DEBUG 17472 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 13:04:39.875 DEBUG 17472 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 13:04:39.881  INFO 17472 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:04:39.882  INFO 17472 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:04:39.882  INFO 17472 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 13:04:39.884 DEBUG 17472 --- [main] c.s.s.controller.FireStationController   : HTTP GET request received for /firestations URL
+2023-10-02 13:04:39.884  INFO 17472 --- [main] c.s.s.controller.FireStationController   : Success. The list of firestations is created
+2023-10-02 13:04:39.915  INFO 17472 --- [main] c.s.s.c.FireStationControllerTest        : Starting FireStationControllerTest using Java 17.0.6 on LAPTOP-PN5D3RE4 with PID 17472 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 13:04:39.915 DEBUG 17472 --- [main] c.s.s.c.FireStationControllerTest        : Running with Spring Boot v2.5.6, Spring v5.3.12
+2023-10-02 13:04:39.917  INFO 17472 --- [main] c.s.s.c.FireStationControllerTest        : No active profile set, falling back to default profiles: default
+2023-10-02 13:04:40.221  INFO 17472 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:04:40.221  INFO 17472 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:04:40.222  INFO 17472 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-10-02 13:04:40.231  INFO 17472 --- [main] c.s.s.c.FireStationControllerTest        : Started FireStationControllerTest in 0.339 seconds (JVM running for 4.46)
+2023-10-02 13:04:40.232 DEBUG 17472 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 13:04:40.232 DEBUG 17472 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 13:04:40.233 DEBUG 17472 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 13:04:40.237  INFO 17472 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:04:40.237  INFO 17472 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:04:40.237  INFO 17472 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 13:04:40.241 DEBUG 17472 --- [main] c.s.s.controller.FireStationController   : HTTP GET request recieved at /fire URL
+2023-10-02 13:04:40.243  INFO 17472 --- [main] c.s.s.controller.FireStationController   : Success. Lists of households and personal information of each habitant in it were created.
+2023-10-02 13:04:40.269  INFO 17472 --- [main] c.s.s.c.FireStationControllerTest        : Starting FireStationControllerTest using Java 17.0.6 on LAPTOP-PN5D3RE4 with PID 17472 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 13:04:40.270 DEBUG 17472 --- [main] c.s.s.c.FireStationControllerTest        : Running with Spring Boot v2.5.6, Spring v5.3.12
+2023-10-02 13:04:40.270  INFO 17472 --- [main] c.s.s.c.FireStationControllerTest        : No active profile set, falling back to default profiles: default
+2023-10-02 13:04:40.559  INFO 17472 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:04:40.560  INFO 17472 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:04:40.560  INFO 17472 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 13:04:40.569  INFO 17472 --- [main] c.s.s.c.FireStationControllerTest        : Started FireStationControllerTest in 0.317 seconds (JVM running for 4.797)
+2023-10-02 13:04:40.570 DEBUG 17472 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 13:04:40.570 DEBUG 17472 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 13:04:40.571 DEBUG 17472 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 13:04:40.575  INFO 17472 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:04:40.577  INFO 17472 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:04:40.577  INFO 17472 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 13:04:40.651 DEBUG 17472 --- [main] c.s.s.controller.FireStationController   : HTTP POST request recieved at /firestation URL
+2023-10-02 13:04:40.651  INFO 17472 --- [main] c.s.s.controller.FireStationController   : Success. The firestation is created
+2023-10-02 13:04:40.678  INFO 17472 --- [main] c.s.s.c.FireStationControllerTest        : Starting FireStationControllerTest using Java 17.0.6 on LAPTOP-PN5D3RE4 with PID 17472 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 13:04:40.679 DEBUG 17472 --- [main] c.s.s.c.FireStationControllerTest        : Running with Spring Boot v2.5.6, Spring v5.3.12
+2023-10-02 13:04:40.680  INFO 17472 --- [main] c.s.s.c.FireStationControllerTest        : No active profile set, falling back to default profiles: default
+2023-10-02 13:04:40.949  INFO 17472 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:04:40.949  INFO 17472 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:04:40.950  INFO 17472 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 13:04:40.957  INFO 17472 --- [main] c.s.s.c.FireStationControllerTest        : Started FireStationControllerTest in 0.301 seconds (JVM running for 5.186)
+2023-10-02 13:04:40.958 DEBUG 17472 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 13:04:40.959 DEBUG 17472 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 13:04:40.959 DEBUG 17472 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 13:04:40.962  INFO 17472 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:04:40.962  INFO 17472 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:04:40.963  INFO 17472 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-10-02 13:04:40.964 DEBUG 17472 --- [main] c.s.s.controller.FireStationController   : HTTP DELETE request recieved at /firestation URL
+2023-10-02 13:04:40.964  INFO 17472 --- [main] c.s.s.controller.FireStationController   : Success. The firestation deleted
+2023-10-02 13:05:15.133  INFO 3292 --- [main] c.s.s.c.FireStationControllerTest        : Starting FireStationControllerTest using Java 17.0.6 on LAPTOP-PN5D3RE4 with PID 3292 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 13:05:15.135 DEBUG 3292 --- [main] c.s.s.c.FireStationControllerTest        : Running with Spring Boot v2.5.6, Spring v5.3.12
+2023-10-02 13:05:15.137  INFO 3292 --- [main] c.s.s.c.FireStationControllerTest        : No active profile set, falling back to default profiles: default
+2023-10-02 13:05:16.672  INFO 3292 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:05:16.672  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:05:16.673  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-10-02 13:05:16.709  INFO 3292 --- [main] c.s.s.c.FireStationControllerTest        : Started FireStationControllerTest in 2.073 seconds (JVM running for 3.582)
+2023-10-02 13:05:16.741 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 13:05:16.742 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 13:05:16.759 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 13:05:17.275  INFO 3292 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:05:17.276  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:05:17.277  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-10-02 13:05:17.347 DEBUG 3292 --- [main] c.s.s.controller.FireStationController   : HTTP GET request recieved at /firestation URL
+2023-10-02 13:05:17.356  INFO 3292 --- [main] c.s.s.controller.FireStationController   : Success.The list of people served by the corresponding fire station was created.
+2023-10-02 13:05:17.440  INFO 3292 --- [main] c.s.s.c.FireStationControllerTest        : Starting FireStationControllerTest using Java 17.0.6 on LAPTOP-PN5D3RE4 with PID 3292 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 13:05:17.441 DEBUG 3292 --- [main] c.s.s.c.FireStationControllerTest        : Running with Spring Boot v2.5.6, Spring v5.3.12
+2023-10-02 13:05:17.442  INFO 3292 --- [main] c.s.s.c.FireStationControllerTest        : No active profile set, falling back to default profiles: default
+2023-10-02 13:05:17.785  INFO 3292 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:05:17.786  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:05:17.786  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 13:05:17.796  INFO 3292 --- [main] c.s.s.c.FireStationControllerTest        : Started FireStationControllerTest in 0.385 seconds (JVM running for 4.67)
+2023-10-02 13:05:17.799 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 13:05:17.799 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 13:05:17.800 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 13:05:17.806  INFO 3292 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:05:17.806  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:05:17.807  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-10-02 13:05:17.845  INFO 3292 --- [main] c.s.s.c.FireStationControllerTest        : Starting FireStationControllerTest using Java 17.0.6 on LAPTOP-PN5D3RE4 with PID 3292 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 13:05:17.845 DEBUG 3292 --- [main] c.s.s.c.FireStationControllerTest        : Running with Spring Boot v2.5.6, Spring v5.3.12
+2023-10-02 13:05:17.846  INFO 3292 --- [main] c.s.s.c.FireStationControllerTest        : No active profile set, falling back to default profiles: default
+2023-10-02 13:05:18.189  INFO 3292 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:05:18.189  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:05:18.191  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2023-10-02 13:05:18.200  INFO 3292 --- [main] c.s.s.c.FireStationControllerTest        : Started FireStationControllerTest in 0.382 seconds (JVM running for 5.074)
+2023-10-02 13:05:18.202 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 13:05:18.202 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 13:05:18.203 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 13:05:18.209  INFO 3292 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:05:18.209  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:05:18.210  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-10-02 13:05:18.212 DEBUG 3292 --- [main] c.s.s.controller.FireStationController   : HTTP GET request recieved at /phoneAlert URL
+2023-10-02 13:05:18.213  INFO 3292 --- [main] c.s.s.controller.FireStationController   : Success.The list of phone numbers was created.
+2023-10-02 13:05:18.249  INFO 3292 --- [main] c.s.s.c.FireStationControllerTest        : Starting FireStationControllerTest using Java 17.0.6 on LAPTOP-PN5D3RE4 with PID 3292 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 13:05:18.249 DEBUG 3292 --- [main] c.s.s.c.FireStationControllerTest        : Running with Spring Boot v2.5.6, Spring v5.3.12
+2023-10-02 13:05:18.250  INFO 3292 --- [main] c.s.s.c.FireStationControllerTest        : No active profile set, falling back to default profiles: default
+2023-10-02 13:05:18.584  INFO 3292 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:05:18.584  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:05:18.585  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-10-02 13:05:18.596  INFO 3292 --- [main] c.s.s.c.FireStationControllerTest        : Started FireStationControllerTest in 0.368 seconds (JVM running for 5.47)
+2023-10-02 13:05:18.597 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 13:05:18.597 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 13:05:18.599 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 13:05:18.602  INFO 3292 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:05:18.602  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:05:18.604  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2023-10-02 13:05:18.605 DEBUG 3292 --- [main] c.s.s.controller.FireStationController   : HTTP GET request recieved at /fire URL
+2023-10-02 13:05:18.607  INFO 3292 --- [main] c.s.s.controller.FireStationController   : Success. Lists of addresses and people were created.
+2023-10-02 13:05:18.636  INFO 3292 --- [main] c.s.s.c.FireStationControllerTest        : Starting FireStationControllerTest using Java 17.0.6 on LAPTOP-PN5D3RE4 with PID 3292 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 13:05:18.636 DEBUG 3292 --- [main] c.s.s.c.FireStationControllerTest        : Running with Spring Boot v2.5.6, Spring v5.3.12
+2023-10-02 13:05:18.636  INFO 3292 --- [main] c.s.s.c.FireStationControllerTest        : No active profile set, falling back to default profiles: default
+2023-10-02 13:05:18.937  INFO 3292 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:05:18.937  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:05:18.938  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-10-02 13:05:18.947  INFO 3292 --- [main] c.s.s.c.FireStationControllerTest        : Started FireStationControllerTest in 0.333 seconds (JVM running for 5.821)
+2023-10-02 13:05:18.949 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 13:05:18.949 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 13:05:18.949 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 13:05:18.955  INFO 3292 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:05:18.956  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:05:18.956  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 13:05:18.958 DEBUG 3292 --- [main] c.s.s.controller.FireStationController   : HTTP GET request received for /firestations URL
+2023-10-02 13:05:18.958  INFO 3292 --- [main] c.s.s.controller.FireStationController   : Success. The list of firestations is created
+2023-10-02 13:05:18.989  INFO 3292 --- [main] c.s.s.c.FireStationControllerTest        : Starting FireStationControllerTest using Java 17.0.6 on LAPTOP-PN5D3RE4 with PID 3292 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 13:05:18.990 DEBUG 3292 --- [main] c.s.s.c.FireStationControllerTest        : Running with Spring Boot v2.5.6, Spring v5.3.12
+2023-10-02 13:05:18.990  INFO 3292 --- [main] c.s.s.c.FireStationControllerTest        : No active profile set, falling back to default profiles: default
+2023-10-02 13:05:19.296  INFO 3292 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:05:19.296  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:05:19.297  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-10-02 13:05:19.306  INFO 3292 --- [main] c.s.s.c.FireStationControllerTest        : Started FireStationControllerTest in 0.341 seconds (JVM running for 6.18)
+2023-10-02 13:05:19.308 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 13:05:19.308 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 13:05:19.309 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 13:05:19.312  INFO 3292 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:05:19.312  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:05:19.313  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-10-02 13:05:19.314 DEBUG 3292 --- [main] c.s.s.controller.FireStationController   : HTTP GET request recieved at /fire URL
+2023-10-02 13:05:19.317  INFO 3292 --- [main] c.s.s.controller.FireStationController   : Success. Lists of households and personal information of each habitant in it were created.
+2023-10-02 13:05:19.343  INFO 3292 --- [main] c.s.s.c.FireStationControllerTest        : Starting FireStationControllerTest using Java 17.0.6 on LAPTOP-PN5D3RE4 with PID 3292 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 13:05:19.343 DEBUG 3292 --- [main] c.s.s.c.FireStationControllerTest        : Running with Spring Boot v2.5.6, Spring v5.3.12
+2023-10-02 13:05:19.343  INFO 3292 --- [main] c.s.s.c.FireStationControllerTest        : No active profile set, falling back to default profiles: default
+2023-10-02 13:05:19.657  INFO 3292 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:05:19.657  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:05:19.657  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 13:05:19.669  INFO 3292 --- [main] c.s.s.c.FireStationControllerTest        : Started FireStationControllerTest in 0.344 seconds (JVM running for 6.542)
+2023-10-02 13:05:19.670 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 13:05:19.671 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 13:05:19.671 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 13:05:19.677  INFO 3292 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:05:19.677  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:05:19.678  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 13:05:19.770 DEBUG 3292 --- [main] c.s.s.controller.FireStationController   : HTTP POST request recieved at /firestation URL
+2023-10-02 13:05:19.770  INFO 3292 --- [main] c.s.s.controller.FireStationController   : Success. The firestation is created
+2023-10-02 13:05:19.802  INFO 3292 --- [main] c.s.s.c.FireStationControllerTest        : Starting FireStationControllerTest using Java 17.0.6 on LAPTOP-PN5D3RE4 with PID 3292 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 13:05:19.803 DEBUG 3292 --- [main] c.s.s.c.FireStationControllerTest        : Running with Spring Boot v2.5.6, Spring v5.3.12
+2023-10-02 13:05:19.803  INFO 3292 --- [main] c.s.s.c.FireStationControllerTest        : No active profile set, falling back to default profiles: default
+2023-10-02 13:05:20.071  INFO 3292 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:05:20.071  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:05:20.071  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 13:05:20.082  INFO 3292 --- [main] c.s.s.c.FireStationControllerTest        : Started FireStationControllerTest in 0.306 seconds (JVM running for 6.956)
+2023-10-02 13:05:20.083 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 13:05:20.083 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 13:05:20.084 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 13:05:20.087  INFO 3292 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:05:20.088  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:05:20.088  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 13:05:20.089 DEBUG 3292 --- [main] c.s.s.controller.FireStationController   : HTTP DELETE request recieved at /firestation URL
+2023-10-02 13:05:20.089  INFO 3292 --- [main] c.s.s.controller.FireStationController   : Success. The firestation deleted
+2023-10-02 13:05:20.099  INFO 3292 --- [main] .b.t.a.w.s.WebMvcTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.safetynet.safetynetalerts.controllerTest.MedicalRecordControllerTest], using SpringBootContextLoader
+2023-10-02 13:05:20.100  INFO 3292 --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.safetynet.safetynetalerts.controllerTest.MedicalRecordControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-10-02 13:05:20.100  INFO 3292 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.safetynet.safetynetalerts.controllerTest.MedicalRecordControllerTest]: MedicalRecordControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-10-02 13:05:20.103  INFO 3292 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.safetynet.safetynetalerts.SafetyNetAlertsApp for test class com.safetynet.safetynetalerts.controllerTest.MedicalRecordControllerTest
+2023-10-02 13:05:20.104  INFO 3292 --- [main] .b.t.a.w.s.WebMvcTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-10-02 13:05:20.105  INFO 3292 --- [main] .b.t.a.w.s.WebMvcTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@69eb88a7, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2db15764, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7d727123, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@48446968, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7ddf7e77, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5a720cdf, org.springframework.test.context.event.EventPublishingTestExecutionListener@34e785db, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5f83b506, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@59294447, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1377af49, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1b3639a1, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@59df8444, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4ac7f844]
+2023-10-02 13:05:20.137  INFO 3292 --- [main] c.s.s.c.MedicalRecordControllerTest      : Starting MedicalRecordControllerTest using Java 17.0.6 on LAPTOP-PN5D3RE4 with PID 3292 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 13:05:20.137 DEBUG 3292 --- [main] c.s.s.c.MedicalRecordControllerTest      : Running with Spring Boot v2.5.6, Spring v5.3.12
+2023-10-02 13:05:20.137  INFO 3292 --- [main] c.s.s.c.MedicalRecordControllerTest      : No active profile set, falling back to default profiles: default
+2023-10-02 13:05:20.381  INFO 3292 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:05:20.381  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:05:20.382  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 13:05:20.394  INFO 3292 --- [main] c.s.s.c.MedicalRecordControllerTest      : Started MedicalRecordControllerTest in 0.286 seconds (JVM running for 7.268)
+2023-10-02 13:05:20.395 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 13:05:20.395 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 13:05:20.396 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 13:05:20.398  INFO 3292 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:05:20.398  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:05:20.400  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2023-10-02 13:05:20.401 DEBUG 3292 --- [main] c.s.s.c.MedicalRecordsController         : HTTP GET request received for /medicalRecords URL
+2023-10-02 13:05:20.401  INFO 3292 --- [main] c.s.s.c.MedicalRecordsController         : Success. The list of medical records is received
+2023-10-02 13:05:20.426  INFO 3292 --- [main] c.s.s.c.MedicalRecordControllerTest      : Starting MedicalRecordControllerTest using Java 17.0.6 on LAPTOP-PN5D3RE4 with PID 3292 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 13:05:20.426 DEBUG 3292 --- [main] c.s.s.c.MedicalRecordControllerTest      : Running with Spring Boot v2.5.6, Spring v5.3.12
+2023-10-02 13:05:20.426  INFO 3292 --- [main] c.s.s.c.MedicalRecordControllerTest      : No active profile set, falling back to default profiles: default
+2023-10-02 13:05:20.649  INFO 3292 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:05:20.649  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:05:20.650  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-10-02 13:05:20.656  INFO 3292 --- [main] c.s.s.c.MedicalRecordControllerTest      : Started MedicalRecordControllerTest in 0.247 seconds (JVM running for 7.529)
+2023-10-02 13:05:20.657 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 13:05:20.657 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 13:05:20.658 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 13:05:20.661  INFO 3292 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:05:20.661  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:05:20.662  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-10-02 13:05:20.663 DEBUG 3292 --- [main] c.s.s.c.MedicalRecordsController         : HTTP GET request recieved at /medicalRecord URL
+2023-10-02 13:05:20.663  INFO 3292 --- [main] c.s.s.c.MedicalRecordsController         : Success. The medical record is founded
+2023-10-02 13:05:20.685  INFO 3292 --- [main] c.s.s.c.MedicalRecordControllerTest      : Starting MedicalRecordControllerTest using Java 17.0.6 on LAPTOP-PN5D3RE4 with PID 3292 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 13:05:20.687 DEBUG 3292 --- [main] c.s.s.c.MedicalRecordControllerTest      : Running with Spring Boot v2.5.6, Spring v5.3.12
+2023-10-02 13:05:20.687  INFO 3292 --- [main] c.s.s.c.MedicalRecordControllerTest      : No active profile set, falling back to default profiles: default
+2023-10-02 13:05:20.875  INFO 3292 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:05:20.875  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:05:20.875  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 13:05:20.882  INFO 3292 --- [main] c.s.s.c.MedicalRecordControllerTest      : Started MedicalRecordControllerTest in 0.214 seconds (JVM running for 7.756)
+2023-10-02 13:05:20.883 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 13:05:20.883 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 13:05:20.884 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 13:05:20.887  INFO 3292 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:05:20.887  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:05:20.888  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-10-02 13:05:20.898 DEBUG 3292 --- [main] c.s.s.c.MedicalRecordsController         : HTTP PUT request recieved at /medicalRecord URL
+2023-10-02 13:05:20.898  INFO 3292 --- [main] c.s.s.c.MedicalRecordsController         : Success. The medical record is updated
+2023-10-02 13:05:20.920  INFO 3292 --- [main] c.s.s.c.MedicalRecordControllerTest      : Starting MedicalRecordControllerTest using Java 17.0.6 on LAPTOP-PN5D3RE4 with PID 3292 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 13:05:20.920 DEBUG 3292 --- [main] c.s.s.c.MedicalRecordControllerTest      : Running with Spring Boot v2.5.6, Spring v5.3.12
+2023-10-02 13:05:20.921  INFO 3292 --- [main] c.s.s.c.MedicalRecordControllerTest      : No active profile set, falling back to default profiles: default
+2023-10-02 13:05:21.134  INFO 3292 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:05:21.135  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:05:21.135  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 13:05:21.140  INFO 3292 --- [main] c.s.s.c.MedicalRecordControllerTest      : Started MedicalRecordControllerTest in 0.238 seconds (JVM running for 8.014)
+2023-10-02 13:05:21.141 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 13:05:21.142 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 13:05:21.142 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 13:05:21.146  INFO 3292 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:05:21.147  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:05:21.147  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 13:05:21.151 DEBUG 3292 --- [main] c.s.s.c.MedicalRecordsController         : HTTP DELETE request recieved at /medicalRecord URL
+2023-10-02 13:05:21.151  INFO 3292 --- [main] c.s.s.c.MedicalRecordsController         : Success. The medical record deleted
+2023-10-02 13:05:21.175  INFO 3292 --- [main] c.s.s.c.MedicalRecordControllerTest      : Starting MedicalRecordControllerTest using Java 17.0.6 on LAPTOP-PN5D3RE4 with PID 3292 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 13:05:21.175 DEBUG 3292 --- [main] c.s.s.c.MedicalRecordControllerTest      : Running with Spring Boot v2.5.6, Spring v5.3.12
+2023-10-02 13:05:21.176  INFO 3292 --- [main] c.s.s.c.MedicalRecordControllerTest      : No active profile set, falling back to default profiles: default
+2023-10-02 13:05:21.350  INFO 3292 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:05:21.350  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:05:21.350  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 13:05:21.355  INFO 3292 --- [main] c.s.s.c.MedicalRecordControllerTest      : Started MedicalRecordControllerTest in 0.2 seconds (JVM running for 8.228)
+2023-10-02 13:05:21.355 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 13:05:21.356 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 13:05:21.356 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 13:05:21.360  INFO 3292 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:05:21.361  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:05:21.361  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 13:05:21.366 DEBUG 3292 --- [main] c.s.s.c.MedicalRecordsController         : HTTP POST request recieved at /medicalRecord URL
+2023-10-02 13:05:21.366  INFO 3292 --- [main] c.s.s.c.MedicalRecordsController         : Success. The medical record is created
+2023-10-02 13:05:21.371  INFO 3292 --- [main] .b.t.a.w.s.WebMvcTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.safetynet.safetynetalerts.controllerTest.PersonControllerTest], using SpringBootContextLoader
+2023-10-02 13:05:21.372  INFO 3292 --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.safetynet.safetynetalerts.controllerTest.PersonControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2023-10-02 13:05:21.372  INFO 3292 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.safetynet.safetynetalerts.controllerTest.PersonControllerTest]: PersonControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-10-02 13:05:21.375  INFO 3292 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.safetynet.safetynetalerts.SafetyNetAlertsApp for test class com.safetynet.safetynetalerts.controllerTest.PersonControllerTest
+2023-10-02 13:05:21.376  INFO 3292 --- [main] .b.t.a.w.s.WebMvcTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2023-10-02 13:05:21.377  INFO 3292 --- [main] .b.t.a.w.s.WebMvcTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6c8a806c, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5858054c, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@28ea7f58, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2cf7ada5, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@14c6d1b7, org.springframework.test.context.support.DirtiesContextTestExecutionListener@c2cc406, org.springframework.test.context.event.EventPublishingTestExecutionListener@77c77a64, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@664c6bbc, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@442545ab, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2ec3b5dd, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@629bee3b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@678f685f, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@9e96118]
+2023-10-02 13:05:21.399  INFO 3292 --- [main] c.s.s.c.PersonControllerTest             : Starting PersonControllerTest using Java 17.0.6 on LAPTOP-PN5D3RE4 with PID 3292 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 13:05:21.399 DEBUG 3292 --- [main] c.s.s.c.PersonControllerTest             : Running with Spring Boot v2.5.6, Spring v5.3.12
+2023-10-02 13:05:21.400  INFO 3292 --- [main] c.s.s.c.PersonControllerTest             : No active profile set, falling back to default profiles: default
+2023-10-02 13:05:21.599  INFO 3292 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:05:21.599  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:05:21.599  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 13:05:21.604  INFO 3292 --- [main] c.s.s.c.PersonControllerTest             : Started PersonControllerTest in 0.225 seconds (JVM running for 8.478)
+2023-10-02 13:05:21.605 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 13:05:21.605 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 13:05:21.605 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 13:05:21.609  INFO 3292 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:05:21.609  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:05:21.610  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-10-02 13:05:21.611  INFO 3292 --- [main] c.s.s.controller.PersonController        : Success.The list of all emails in the provided city was created.
+2023-10-02 13:05:21.632  INFO 3292 --- [main] c.s.s.c.PersonControllerTest             : Starting PersonControllerTest using Java 17.0.6 on LAPTOP-PN5D3RE4 with PID 3292 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 13:05:21.632 DEBUG 3292 --- [main] c.s.s.c.PersonControllerTest             : Running with Spring Boot v2.5.6, Spring v5.3.12
+2023-10-02 13:05:21.632  INFO 3292 --- [main] c.s.s.c.PersonControllerTest             : No active profile set, falling back to default profiles: default
+2023-10-02 13:05:21.789  INFO 3292 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:05:21.789  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:05:21.790  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-10-02 13:05:21.794  INFO 3292 --- [main] c.s.s.c.PersonControllerTest             : Started PersonControllerTest in 0.178 seconds (JVM running for 8.667)
+2023-10-02 13:05:21.794 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 13:05:21.794 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 13:05:21.795 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 13:05:21.797  INFO 3292 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:05:21.797  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:05:21.797  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 13:05:21.800 DEBUG 3292 --- [main] c.s.s.controller.PersonController        : HTTP DELETE request received for /person URL
+2023-10-02 13:05:21.800  INFO 3292 --- [main] c.s.s.controller.PersonController        : Success. The firestation deleted
+2023-10-02 13:05:21.824  INFO 3292 --- [main] c.s.s.c.PersonControllerTest             : Starting PersonControllerTest using Java 17.0.6 on LAPTOP-PN5D3RE4 with PID 3292 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 13:05:21.824 DEBUG 3292 --- [main] c.s.s.c.PersonControllerTest             : Running with Spring Boot v2.5.6, Spring v5.3.12
+2023-10-02 13:05:21.825  INFO 3292 --- [main] c.s.s.c.PersonControllerTest             : No active profile set, falling back to default profiles: default
+2023-10-02 13:05:21.996  INFO 3292 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:05:21.996  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:05:21.997  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-10-02 13:05:22.003  INFO 3292 --- [main] c.s.s.c.PersonControllerTest             : Started PersonControllerTest in 0.197 seconds (JVM running for 8.876)
+2023-10-02 13:05:22.004 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 13:05:22.004 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 13:05:22.004 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 13:05:22.006  INFO 3292 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:05:22.007  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:05:22.007  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 13:05:22.012 DEBUG 3292 --- [main] c.s.s.controller.PersonController        : HTTP PUT request received for /person URL
+2023-10-02 13:05:22.012 ERROR 3292 --- [main] c.s.s.controller.PersonController        : ERROR During HTTP PUT request.The person not updated
+2023-10-02 13:05:22.029  INFO 3292 --- [main] c.s.s.c.PersonControllerTest             : Starting PersonControllerTest using Java 17.0.6 on LAPTOP-PN5D3RE4 with PID 3292 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 13:05:22.029 DEBUG 3292 --- [main] c.s.s.c.PersonControllerTest             : Running with Spring Boot v2.5.6, Spring v5.3.12
+2023-10-02 13:05:22.029  INFO 3292 --- [main] c.s.s.c.PersonControllerTest             : No active profile set, falling back to default profiles: default
+2023-10-02 13:05:22.203  INFO 3292 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:05:22.203  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:05:22.204  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-10-02 13:05:22.208  INFO 3292 --- [main] c.s.s.c.PersonControllerTest             : Started PersonControllerTest in 0.193 seconds (JVM running for 9.082)
+2023-10-02 13:05:22.210 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 13:05:22.210 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 13:05:22.210 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 13:05:22.213  INFO 3292 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:05:22.214  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:05:22.214  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 13:05:22.215 DEBUG 3292 --- [main] c.s.s.controller.PersonController        : HTTP GET request received for /childAlert URL
+2023-10-02 13:05:22.215  INFO 3292 --- [main] c.s.s.controller.PersonController        : Success.The personal information for the provided person was found.
+2023-10-02 13:05:22.240  INFO 3292 --- [main] c.s.s.c.PersonControllerTest             : Starting PersonControllerTest using Java 17.0.6 on LAPTOP-PN5D3RE4 with PID 3292 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 13:05:22.240 DEBUG 3292 --- [main] c.s.s.c.PersonControllerTest             : Running with Spring Boot v2.5.6, Spring v5.3.12
+2023-10-02 13:05:22.240  INFO 3292 --- [main] c.s.s.c.PersonControllerTest             : No active profile set, falling back to default profiles: default
+2023-10-02 13:05:22.405  INFO 3292 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:05:22.405  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:05:22.405  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 13:05:22.410  INFO 3292 --- [main] c.s.s.c.PersonControllerTest             : Started PersonControllerTest in 0.188 seconds (JVM running for 9.283)
+2023-10-02 13:05:22.410 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 13:05:22.410 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 13:05:22.411 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 13:05:22.413  INFO 3292 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:05:22.413  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:05:22.413  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 13:05:22.414 DEBUG 3292 --- [main] c.s.s.controller.PersonController        : HTTP GET request received for /childAlert URL
+2023-10-02 13:05:22.414  INFO 3292 --- [main] c.s.s.controller.PersonController        : Success.The list of children and other persons living at provided address was created.
+2023-10-02 13:05:22.433  INFO 3292 --- [main] c.s.s.c.PersonControllerTest             : Starting PersonControllerTest using Java 17.0.6 on LAPTOP-PN5D3RE4 with PID 3292 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 13:05:22.433 DEBUG 3292 --- [main] c.s.s.c.PersonControllerTest             : Running with Spring Boot v2.5.6, Spring v5.3.12
+2023-10-02 13:05:22.434  INFO 3292 --- [main] c.s.s.c.PersonControllerTest             : No active profile set, falling back to default profiles: default
+2023-10-02 13:05:22.604  INFO 3292 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:05:22.604  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:05:22.605  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-10-02 13:05:22.611  INFO 3292 --- [main] c.s.s.c.PersonControllerTest             : Started PersonControllerTest in 0.191 seconds (JVM running for 9.484)
+2023-10-02 13:05:22.612 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 13:05:22.612 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 13:05:22.612 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 13:05:22.615  INFO 3292 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:05:22.615  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:05:22.615  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 13:05:22.616 DEBUG 3292 --- [main] c.s.s.controller.PersonController        : HTTP GET request received for /persons URL
+2023-10-02 13:05:22.616  INFO 3292 --- [main] c.s.s.controller.PersonController        : Success. The list of persons is created
+2023-10-02 13:05:22.635  INFO 3292 --- [main] c.s.s.c.PersonControllerTest             : Starting PersonControllerTest using Java 17.0.6 on LAPTOP-PN5D3RE4 with PID 3292 (started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2023-10-02 13:05:22.635 DEBUG 3292 --- [main] c.s.s.c.PersonControllerTest             : Running with Spring Boot v2.5.6, Spring v5.3.12
+2023-10-02 13:05:22.635  INFO 3292 --- [main] c.s.s.c.PersonControllerTest             : No active profile set, falling back to default profiles: default
+2023-10-02 13:05:22.793  INFO 3292 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:05:22.793  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:05:22.793  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2023-10-02 13:05:22.799  INFO 3292 --- [main] c.s.s.c.PersonControllerTest             : Started PersonControllerTest in 0.179 seconds (JVM running for 9.673)
+2023-10-02 13:05:22.799 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Persons info have been loaded from the data.json file
+2023-10-02 13:05:22.799 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Fire stations info have been loaded from the data.json file
+2023-10-02 13:05:22.800 DEBUG 3292 --- [main] c.s.safetynetalerts.service.JSONReader   : Medical records info have been loaded from the data.json file
+2023-10-02 13:05:22.802  INFO 3292 --- [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2023-10-02 13:05:22.802  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-10-02 13:05:22.803  INFO 3292 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2023-10-02 13:05:22.807 DEBUG 3292 --- [main] c.s.s.controller.PersonController        : HTTP POST request received for /person URL
+2023-10-02 13:05:22.807  INFO 3292 --- [main] c.s.s.controller.PersonController        : Success. The person is created
