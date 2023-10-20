@@ -73,7 +73,7 @@ public class PersonController {
         Optional<Person> personServiceOptional = Optional.ofNullable(personService
                 .findPersonByFirstAndLastName(firstName,lastName));
         if(personServiceOptional.isPresent()){
-            logger.info("Success. The firestation deleted");
+            logger.info("Success. The person is deleted");
             personService.deletePerson(firstName,lastName);
         } else {
             logger.error("ERROR During HTTP DELETE request.The person not deleted");

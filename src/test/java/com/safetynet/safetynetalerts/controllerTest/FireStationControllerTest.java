@@ -74,7 +74,7 @@ public class FireStationControllerTest {
     @Test
     @DisplayName("Update firestation Test")
     public void updateFireStationTest() throws Exception {
-        this.mockMvc.perform(put("/medicalRecord")
+        this.mockMvc.perform(put("/firestation")
                 .param("address", "951 LoneTree Rd")
                 .contentType(MediaType.APPLICATION_JSON).content("{\"address\":\"951 LoneTree Rd\",\"station\":\"7\"}"));
     }
