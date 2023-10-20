@@ -1,0 +1,124 @@
+{
+	"info": {
+		"_postman_id": "836e2c87-3d92-40b1-9c34-9d0c90b3f5ca",
+		"name": "personSeftyNet",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13308459"
+	},
+	"item": [
+		{
+			"name": "GET allPerson",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/persons",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"persons"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT Person",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"address\":\"1509 Culver St\",\"lastName\":\"Boyd\",\"firstName\":\"John\",\"email\":\"jaboyd@email.com\",\"zip\":\"97451\",\"city\":\"Culver\",\"phone\":\"841-874-0000\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/person?firstName=John&lastName=Boyd",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"person"
+					],
+					"query": [
+						{
+							"key": "firstName",
+							"value": "John"
+						},
+						{
+							"key": "lastName",
+							"value": "Boyd"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Person",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"address\":\"1509 Culver St\",\"firstName\":\"Ihor\",\"zip\":\"97451\",\"lastName\":\"Nikolaienko\",\"phone\":\"000-874-0000\",\"email\":\"jaboyd@email.com\",\"city\":\"Culver\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/person",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"person"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE Person",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/person?firstName=John&lastName=Boyd",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"person"
+					],
+					"query": [
+						{
+							"key": "firstName",
+							"value": "John"
+						},
+						{
+							"key": "lastName",
+							"value": "Boyd"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

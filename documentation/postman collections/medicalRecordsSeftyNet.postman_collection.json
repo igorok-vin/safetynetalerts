@@ -1,0 +1,122 @@
+{
+	"info": {
+		"_postman_id": "09e5ff11-55b7-4d1f-8464-705f0f7f250f",
+		"name": "medicalRecordsSeftyNet",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13308459"
+	},
+	"item": [
+		{
+			"name": "GET allMedicalRecords",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/medicalRecords",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"medicalRecords"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET MedicalRecord",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "PUT MedicalRecord",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"firstName\": \"Igor\",\r\n        \"birthdate\": \"08/28/1975\",\r\n        \"lastName\": \"Nik\",\r\n        \"allergies\": [\r\n            \"5555\"\r\n        ],\r\n        \"medications\": [\r\n            \" very good\",\r\n            \"hydrapermazol:100mg\"\r\n        ]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/medicalRecord",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"medicalRecord"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST MedicalRecord",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"firstName\": \"http://localhost:8080/medicalRecords\",\r\n        \"birthdate\": \"08/28/1975\",\r\n        \"lastName\": \"Nik\",\r\n        \"allergies\": [\r\n            \"none\"\r\n        ],\r\n        \"medications\": [\r\n            \"good\",\r\n            \"hydrapermazol:100mg\"\r\n        ]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/medicalRecord",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"medicalRecord"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE MedicalRecord",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/medicalRecord?firstName=Igor&lastName=Nik",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"medicalRecord"
+					],
+					"query": [
+						{
+							"key": "firstName",
+							"value": "Igor"
+						},
+						{
+							"key": "lastName",
+							"value": "Nik"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

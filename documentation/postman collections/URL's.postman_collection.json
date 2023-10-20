@@ -1,0 +1,205 @@
+{
+	"info": {
+		"_postman_id": "0bf1e537-9fcd-46b7-b420-46ec95abc286",
+		"name": "URL's",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13308459"
+	},
+	"item": [
+		{
+			"name": "GET firestation listAdultsAndchildren",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8090/firestation?stationNumber=2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"firestation"
+					],
+					"query": [
+						{
+							"key": "stationNumber",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "childAlert",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/childAlert?address=947 E. Rose Dr",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"childAlert"
+					],
+					"query": [
+						{
+							"key": "address",
+							"value": "947 E. Rose Dr"
+						},
+						{
+							"key": "address",
+							"value": "29 15th St",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET phoneAlert",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/phoneAlert?firestation=2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"phoneAlert"
+					],
+					"query": [
+						{
+							"key": "firestation",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET fire?address",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/fire?address=951 LoneTree Rd",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"fire"
+					],
+					"query": [
+						{
+							"key": "address",
+							"value": "951 LoneTree Rd"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET flood/stations",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/flood/stations?stations=1,4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"flood",
+						"stations"
+					],
+					"query": [
+						{
+							"key": "stations",
+							"value": "1,4"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "personInfo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/personInfo?lastName=Boyd&firstName=Allison",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"personInfo"
+					],
+					"query": [
+						{
+							"key": "firstName",
+							"value": "Jacob",
+							"disabled": true
+						},
+						{
+							"key": "lastName",
+							"value": "Boyd"
+						},
+						{
+							"key": "firstName",
+							"value": "Allison"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "communityEmail",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/communityEmail?city=Culver",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"communityEmail"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "Culver"
+						},
+						{
+							"key": "city",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

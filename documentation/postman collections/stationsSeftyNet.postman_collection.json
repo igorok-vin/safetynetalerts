@@ -1,0 +1,116 @@
+{
+	"info": {
+		"_postman_id": "742a55f0-db4c-4408-b8d6-a8fdd9bbff8a",
+		"name": "stationsSeftyNet",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13308459"
+	},
+	"item": [
+		{
+			"name": "GET AllStation",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/firestations",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"firestations"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Station",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"address\":\"110\",\"station\":\"55\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/firestation",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"firestation"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT Station",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"address\":\"1105\",\"station\":\"9999\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/firestation?address=1105",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"firestation"
+					],
+					"query": [
+						{
+							"key": "address",
+							"value": "1105"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE Station",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/firestation?address=1105",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"firestation"
+					],
+					"query": [
+						{
+							"key": "address",
+							"value": "1105"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
