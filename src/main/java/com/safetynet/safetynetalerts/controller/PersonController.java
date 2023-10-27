@@ -27,37 +27,39 @@ public class PersonController {
 
     @GetMapping("/persons")
     public String findAllPersons() {
-        logger.debug("HTTP GET request received for /persons URL");
-        Optional<JSONReader> jsonReader1 = Optional.empty();
-        if (!jsonReader1.isPresent()) {
-            logger.info("Success. The list of persons is created");
-        return JsonStream.serialize(personService.findAllPersons());
-    }else {
+        logger.info("HTTP GET request received for /persons URL");
+        Optional<Boolean> persons = Optional.ofNullable(personService.findAllPersons().isEmpty());
+        if (persons.get()) {
             logger.error("ERROR During HTTP GET request. The list of persons has been not created");
             return String.format("ERROR During HTTP GET request. The list of persons has been not created");
+    }else {
+            logger.info("Success. The list of persons is created");
+            return JsonStream.serialize(personService.findAllPersons());
         }
     }
 
     @PostMapping("/person")
     public String addNewPerson(@RequestBody Person person) {
-        logger.debug("HTTP POST request received for /person URL");
+        logger.info("HTTP POST request received for /person URL");
         Optional<Person> personServiceOptional = Optional.ofNullable(personService
                 .findPersonByFirstAndLastName(person.getFirstName(),person.getFirstName()));
-        if(!personServiceOptional.isPresent()){
+        System.out.println(personServiceOptional);
+        if(personServiceOptional.isEmpty()){
             logger.info("Success. The person is created");
             return JsonStream.serialize(personService.addNewPerson(person));
         } else {
             logger.error("ERROR During HTTP POST request. The person alredy exist");
             return String.format("ERROR During HTTP POST request. The person alredy exist");
         }
-
     }
 
     @PutMapping("/person")
-    public void updatePerson(@RequestBody Person person) {
-        logger.debug("HTTP PUT request received for /person URL");
+    public void updatePerson(@RequestBody Person person, @RequestParam String firstName,
+                             @RequestParam String lastName) {
+        logger.info("HTTP PUT request received for /person URL");
         Optional<Person> personServiceOptional = Optional.ofNullable(personService
-                .findPersonByFirstAndLastName(person.getFirstName(),person.getFirstName()));
+                .findPersonByFirstAndLastName(firstName,lastName));
+        System.out.println(personServiceOptional);
         if(personServiceOptional.isPresent()){
             logger.info("Success. The person is updated");
             personService.updatePerson(person);
@@ -69,7 +71,7 @@ public class PersonController {
     @DeleteMapping("/person")
     public void deletePerson(@RequestParam String firstName,
                              @RequestParam String lastName) {
-        logger.debug("HTTP DELETE request received for /person URL");
+        logger.info("HTTP DELETE request received for /person URL");
         Optional<Person> personServiceOptional = Optional.ofNullable(personService
                 .findPersonByFirstAndLastName(firstName,lastName));
         if(personServiceOptional.isPresent()){
@@ -82,50 +84,51 @@ public class PersonController {
 
     @GetMapping("/childAlert")
     public String listsOfChildrenAndAdultsAtAddress(@RequestParam String address){
-        logger.debug("HTTP GET request received for /childAlert URL");
-        boolean personServiceOptional = Optional.ofNullable(personService
-                .listsOfChildrenAndAdultsAtAddress(address)).isPresent();
-        if(personServiceOptional){
+        logger.info("HTTP GET request received for /childAlert URL");
+        Optional<Boolean> personServiceOptional = Optional.ofNullable(personService
+                .listsOfChildrenAndAdultsAtAddress(address).isEmpty());
+        if(personServiceOptional.get()){
+            logger.error("ERROR During HTTP GET request." +
+                    "The list of children and other persons living at provided address not created");
+            return String.format("ERROR During HTTP GET request." +
+                    "The list of children and other persons living at provided address not created");
+        } else {
             logger.info("Success.The list of children and other persons living at provided address was created.");
             return JsonStream.serialize(personService
                     .listsOfChildrenAndAdultsAtAddress(address));
-        } else {
-                logger.error("ERROR During HTTP GET request." +
-                        "The list of children and other persons living at provided address not created");
-                return String.format("ERROR During HTTP GET request." +
-                        "The list of children and other persons living at provided address not created");
         }
     }
 
     @GetMapping("/personInfo")
     public String personInfo(@RequestParam String firstName,
                              @RequestParam String lastName) {
-        logger.debug("HTTP GET request received for /childAlert URL");
+        logger.info("HTTP GET request received for /childAlert URL");
         Optional<Person> personServiceOptional = Optional.ofNullable(personService
                 .findPersonByFirstAndLastName(firstName,lastName));
-        if(personServiceOptional.isPresent()){
+        if(personServiceOptional.isEmpty()){
+            logger.error("ERROR During HTTP GET request." +
+                    "The personal information for the provided person was not found.");
+            return String.format("ERROR During HTTP GET request." +
+                    "The personal information for the provided person was not found.");
+        } else {
             logger.info("Success.The personal information for the provided person was found.");
             return JsonStream.serialize(personService.personInfo(firstName,lastName));
-        } else {
-            logger.info("ERROR During HTTP GET request." +
-                    "The personal information for the provided person was not found.");
-           return String.format("ERROR During HTTP GET request." +
-                    "The personal information for the provided person was not found.");
         }
     }
 
     @GetMapping("/communityEmail")
     public String emailAddressesByCity(@RequestParam String city){
-        boolean personServiceOptional = Optional.ofNullable(personService
-                .emailAddressesByCity(city)).isPresent();
-        if(personServiceOptional){
-            logger.info("Success.The list of all emails in the provided city was created.");
-            return JsonStream.serialize(personService.emailAddressesByCity(city));
-        } else {
-            logger.info("ERROR During HTTP GET request." +
+        logger.info("HTTP GET request received for /communityEmail URL");
+        Optional <Boolean> personServiceOptional = Optional.ofNullable(personService
+                .emailAddressesByCity(city).isEmpty());
+        if(personServiceOptional.get()){
+            logger.error("ERROR During HTTP GET request." +
                     "The list of all emails in the provided city was not created.");
             return String.format("ERROR During HTTP GET request." +
                     "The list of all emails in the provided city was not created.");
+        } else {
+            logger.info("Success.The list of all emails in the provided city was created.");
+            return JsonStream.serialize(personService.emailAddressesByCity(city));
         }
     }
 }

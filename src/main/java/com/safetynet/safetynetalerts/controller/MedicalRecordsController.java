@@ -28,20 +28,20 @@ public class MedicalRecordsController {
 
     @GetMapping("/medicalRecords")
     public String findAllMedicalRecords() {
-        logger.debug("HTTP GET request received for /medicalRecords URL");
-        Optional<JSONReader> jsonReader1 = Optional.empty();
-        if (!jsonReader1.isPresent()) {
-            logger.info("Success. The list of medical records is received");
-            return JsonStream.serialize(medicalRecordsService.findAllMedicalRecords());
-        } else {
+        logger.info("HTTP GET request received for /medicalRecords URL");
+        Optional<Boolean> medicalRecords = Optional.ofNullable(medicalRecordsService.findAllMedicalRecords().isEmpty());
+        if (medicalRecords.get()) {
             logger.error("ERROR During HTTP GET request.The list of medical records has been not created");
             return String.format("ERROR During HTTP GET request.The list of medical records has been not created");
+        } else {
+            logger.info("Success. The list of medical records is received");
+            return JsonStream.serialize(medicalRecordsService.findAllMedicalRecords());
         }
     }
 
     @PostMapping("/medicalRecord")
     public String addNewMedicalRecord(@RequestBody MedicalRecord record) {
-        logger.debug("HTTP POST request recieved at /medicalRecord URL");
+        logger.info("HTTP POST request recieved at /medicalRecord URL");
         Optional<MedicalRecord> medicalRecord = Optional.ofNullable(medicalRecordsService
                 .findMedicalRecordsByFirstAndLastName(record.getFirstName(),record.getLastName()));
         if (!medicalRecord.isPresent()) {
@@ -56,7 +56,7 @@ public class MedicalRecordsController {
     @GetMapping("/medicalRecord")
     public String findMedicalRecordsByFirstAndLastName (@RequestParam String firstName,
                                                         @RequestParam String lastName){
-        logger.debug("HTTP GET request recieved at /medicalRecord URL");
+        logger.info("HTTP GET request recieved at /medicalRecord URL");
         Optional<MedicalRecord> medicalRecord = Optional.ofNullable(medicalRecordsService
                 .findMedicalRecordsByFirstAndLastName(firstName, lastName));
         if (medicalRecord.isPresent()) {
@@ -71,7 +71,7 @@ public class MedicalRecordsController {
 
     @PutMapping("/medicalRecord")
     public void updateMedicalRercord (@RequestBody MedicalRecord record){
-        logger.debug("HTTP PUT request recieved at /medicalRecord URL");
+        logger.info("HTTP PUT request recieved at /medicalRecord URL");
         Optional<MedicalRecord> medicalRecord = Optional.ofNullable(medicalRecordsService
                 .findMedicalRecordsByFirstAndLastName(record.getFirstName(), record.getLastName()));
         if (medicalRecord.isPresent()) {
@@ -85,7 +85,7 @@ public class MedicalRecordsController {
     @DeleteMapping("/medicalRecord")
     public void deleteMedicalRecord(@NotNull @RequestParam String firstName,
                                     @NotNull @RequestParam String lastName) {
-        logger.debug("HTTP DELETE request recieved at /medicalRecord URL");
+        logger.info("HTTP DELETE request recieved at /medicalRecord URL");
         Optional<MedicalRecord> medicalRecord = Optional.ofNullable(medicalRecordsService
                 .findMedicalRecordsByFirstAndLastName(firstName, lastName));
         if (medicalRecord.isPresent()) {

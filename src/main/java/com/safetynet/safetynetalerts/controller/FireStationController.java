@@ -10,6 +10,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.io.IOException;
 import java.util.List;
 import java.util.Optional;
 
@@ -29,10 +30,10 @@ public class FireStationController {
 
     @PostMapping("/firestation")
     public String addFireStation(@RequestBody FireStation fireStation) {
-        logger.debug("HTTP POST request recieved at /firestation URL");
+        logger.info("HTTP POST request recieved at /firestation URL");
         Optional<FireStation> station = Optional.ofNullable(fireStationService
                 .findFireStationByAddress(fireStation.getAddress()));
-        if (!station.isPresent()) {
+        if (station.isEmpty()) {
             logger.info("Success. The firestation is created");
             return JsonStream.serialize(fireStationService.addNewFireStation(fireStation));
         } else {
@@ -42,26 +43,26 @@ public class FireStationController {
     }
 
     @GetMapping("/firestations")
-    public String findAllFireStations() {
+    public String findAllFireStations() throws IOException {
         logger.debug("HTTP GET request received for /firestations URL");
-        Optional<JSONReader> jsonReader1 = Optional.empty();
-        if (!jsonReader1.isPresent()) {
-            logger.info("Success. The list of firestations is created");
-            return JsonStream.serialize(fireStationService.findAllFireStations());
-        } else {
+        Optional<Boolean> station = Optional.ofNullable(fireStationService.findAllFireStations().isEmpty());
+        if (station.get()) {
             logger.error("ERROR During HTTP GET request.The list of fire stations has been not created");
             return String.format("ERROR During HTTP GET request.The list of fire stations has been not created");
+        } else {
+            logger.info("Success. The list of firestations is created");
+            return JsonStream.serialize(fireStationService.findAllFireStations());
         }
     }
 
-    @PutMapping("/firestation")
-    public void updateFireStation(@RequestBody FireStation fireStation) {
+    @PutMapping("/firestation/{address}")
+    public void updateFireStation(@RequestBody FireStation fireStation, @PathVariable String address) {
         logger.debug("HTTP PUT request recieved at /firestation URL");
         Optional<FireStation> station = Optional.ofNullable(fireStationService
-                .findFireStationByAddress(fireStation.getAddress()));
+                .findFireStationByAddress(address));
         if (station.isPresent()) {
             logger.info("Success. The firestation is updated");
-            fireStationService.updateFireStation(fireStation);
+            fireStationService.updateFireStation(fireStation,address);
         } else {
             logger.error("ERROR During HTTP PUT request.The firestation not updated");
         }
@@ -80,7 +81,7 @@ public class FireStationController {
         }
     }
 
-    @GetMapping("/firestation") //
+    @GetMapping("/firestation")
     public String listAdultsAndchildrenServicedByCorrespondingFireStation
             (@RequestParam("stationNumber") String stationNumber) {
         logger.debug("HTTP GET request recieved at /firestation URL");
@@ -104,13 +105,15 @@ public class FireStationController {
         logger.debug("HTTP GET request recieved at /phoneAlert URL");
         Optional<Boolean> phoneNumberslist = Optional.ofNullable(fireStationService
                 .phoneNumbersEachPersonWithinFireStationsJurisdiction(stationNumber).isEmpty());
-        if (phoneNumberslist.isPresent()) {
+        System.out.println(phoneNumberslist);
+        if (phoneNumberslist.get()) {
+            logger.error("ERROR During HTTP GET request. The list of phone numbers not created");
+            return String.format("ERROR During HTTP GET request.The list of phone numbers not created");
+
+        } else {
             logger.info("Success.The list of phone numbers was created.");
             return JsonStream.serialize(fireStationService
                     .phoneNumbersEachPersonWithinFireStationsJurisdiction(stationNumber));
-        } else {
-            logger.error("ERROR During HTTP GET request. The list of phone numbers not created");
-            return String.format("ERROR During HTTP GET request.The list of phone numbers not created");
         }
     }
 
@@ -120,13 +123,14 @@ public class FireStationController {
         logger.debug("HTTP GET request recieved at /fire URL");
         Optional<Boolean> householdsAndListOfPeople = Optional.ofNullable(fireStationService
                 .findFireStationNumberThatServicesHouseholdAddressAndListOfPeopleInIt(address).isEmpty());
-        if (householdsAndListOfPeople.isPresent()) {
+        System.out.println(householdsAndListOfPeople);
+        if (householdsAndListOfPeople.get()) {
+            logger.error("ERROR During HTTP GET request. Lists of addresses and people not created");
+            return String.format("ERROR During HTTP GET request. Lists of addresses and people not created");
+        } else {
             logger.info("Success. Lists of addresses and people were created.");
             return JsonStream.serialize(fireStationService
                     .findFireStationNumberThatServicesHouseholdAddressAndListOfPeopleInIt(address));
-        } else {
-            logger.error("ERROR During HTTP GET request. Lists of addresses and people not created");
-            return String.format("ERROR During HTTP GET request. Lists of addresses and people not created");
         }
     }
 
@@ -136,15 +140,15 @@ public class FireStationController {
         logger.debug("HTTP GET request recieved at /fire URL");
         Optional<Boolean> households = Optional.ofNullable(fireStationService
                 .findAllHouseholdsWithListOfPeopleInEachFireStationJurisdiction(stations).isEmpty());
-        if (households.isPresent()) {
-            logger.info("Success. Lists of households and personal information of each habitant in it were created.");
-            return JsonStream.serialize(fireStationService
-                    .findAllHouseholdsWithListOfPeopleInEachFireStationJurisdiction(stations));
-        } else {
+        if (households.get()) {
             logger.error("ERROR During HTTP GET request. " +
                     "Lists of households and personal information of each habitant in it not created");
             return String.format("ERROR During HTTP GET request. " +
                     "Lists of households and personal information of each habitant in it not created");
+        } else {
+            logger.info("Success. Lists of households and personal information of each habitant in it were created.");
+            return JsonStream.serialize(fireStationService
+                    .findAllHouseholdsWithListOfPeopleInEachFireStationJurisdiction(stations));
         }
     }
 }

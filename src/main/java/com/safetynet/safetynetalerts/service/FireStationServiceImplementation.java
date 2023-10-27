@@ -48,10 +48,10 @@ public class FireStationServiceImplementation implements FireStationService {
     }
 
     @Override
-    public void updateFireStation(FireStation fireStation) {
-        FireStation updateFireStation = fireStationRepository.findStationByAddress(fireStation.getAddress());
+    public void updateFireStation(FireStation fireStation, String address) {
+        FireStation updateFireStation = fireStationRepository.findStationByAddress(address);
         if (updateFireStation != null) {
-            fireStationRepository.updateFireStation(fireStation);
+            fireStationRepository.updateFireStation(fireStation, address);
         }
     }
 
