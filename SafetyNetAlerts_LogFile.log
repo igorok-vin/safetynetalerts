@@ -1,0 +1,48 @@
+2025-04-08 19:58:39.413  INFO 29656 --- [main] com.SafetyNetAlertsApp                   : Starting SafetyNetAlertsApp using Java 17.0.6 on LAPTOP-PN5D3RE4 with PID 29656 (D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts\target\classes started by igoro in D:\prog_web\prog\Project 5\New folder\My\production\SafetyNetAlerts)
+2025-04-08 19:58:39.418  INFO 29656 --- [main] com.SafetyNetAlertsApp                   : No active profile set, falling back to default profiles: default
+2025-04-08 19:58:40.688  INFO 29656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-04-08 19:58:40.696  INFO 29656 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-04-08 19:58:40.697  INFO 29656 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2025-04-08 19:58:40.782  INFO 29656 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-04-08 19:58:40.782  INFO 29656 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1323 ms
+2025-04-08 19:58:41.212  INFO 29656 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoint(s) beneath base path '/actuator'
+2025-04-08 19:58:41.264  INFO 29656 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-04-08 19:58:41.274  INFO 29656 --- [main] com.SafetyNetAlertsApp                   : Started SafetyNetAlertsApp in 2.136 seconds (JVM running for 7.272)
+2025-04-08 20:45:45.667  INFO 29656 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-08 20:45:45.668  INFO 29656 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-04-08 20:45:45.670  INFO 29656 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-04-08 20:45:45.698 ERROR 29656 --- [http-nio-8080-exec-1] com.controller.CustomErrorController     : Error with code 404. Be sure that your request is correct.
+2025-04-08 20:45:56.938 ERROR 29656 --- [http-nio-8080-exec-3] com.controller.CustomErrorController     : Error with code 404. Be sure that your request is correct.
+2025-04-08 20:45:59.079 ERROR 29656 --- [http-nio-8080-exec-4] com.controller.CustomErrorController     : Error with code 404. Be sure that your request is correct.
+2025-04-08 20:45:59.703 ERROR 29656 --- [http-nio-8080-exec-5] com.controller.CustomErrorController     : Error with code 404. Be sure that your request is correct.
+2025-04-08 20:45:59.715 ERROR 29656 --- [http-nio-8080-exec-6] com.controller.CustomErrorController     : Error with code 404. Be sure that your request is correct.
+2025-04-08 20:47:16.558  INFO 29656 --- [http-nio-8080-exec-9] com.controller.PersonController          : HTTP GET request received for /persons URL
+2025-04-08 20:47:16.559  INFO 29656 --- [http-nio-8080-exec-9] com.controller.PersonController          : Success. The list of persons is created
+2025-04-08 20:48:54.013  INFO 29656 --- [http-nio-8080-exec-2] com.controller.PersonController          : HTTP GET request received for /persons URL
+2025-04-08 20:48:54.013  INFO 29656 --- [http-nio-8080-exec-2] com.controller.PersonController          : Success. The list of persons is created
+2025-04-08 20:49:21.266  INFO 29656 --- [http-nio-8080-exec-3] com.controller.PersonController          : HTTP GET request received for /childAlert URL
+2025-04-08 20:49:21.267  INFO 29656 --- [http-nio-8080-exec-3] com.controller.PersonController          : Success.The personal information for the provided person was found.
+2025-04-08 20:53:26.320  INFO 29656 --- [http-nio-8080-exec-6] com.controller.PersonController          : HTTP GET request received for /persons URL
+2025-04-08 20:53:26.321  INFO 29656 --- [http-nio-8080-exec-6] com.controller.PersonController          : Success. The list of persons is created
+2025-04-08 20:54:52.772  INFO 29656 --- [http-nio-8080-exec-9] com.controller.PersonController          : HTTP GET request received for /childAlert URL
+2025-04-08 20:54:52.772  INFO 29656 --- [http-nio-8080-exec-9] com.controller.PersonController          : Success.The personal information for the provided person was found.
+2025-04-08 20:54:59.498  INFO 29656 --- [http-nio-8080-exec-10] com.controller.PersonController          : HTTP GET request received for /persons URL
+2025-04-08 20:54:59.498  INFO 29656 --- [http-nio-8080-exec-10] com.controller.PersonController          : Success. The list of persons is created
+2025-04-08 20:57:05.315  INFO 29656 --- [http-nio-8080-exec-2] com.controller.PersonController          : HTTP GET request received for /persons URL
+2025-04-08 20:57:05.317  INFO 29656 --- [http-nio-8080-exec-2] com.controller.PersonController          : Success. The list of persons is created
+2025-04-08 20:57:05.452  INFO 29656 --- [http-nio-8080-exec-3] com.controller.PersonController          : HTTP GET request received for /persons URL
+2025-04-08 20:57:05.452  INFO 29656 --- [http-nio-8080-exec-3] com.controller.PersonController          : Success. The list of persons is created
+2025-04-08 20:57:05.572 ERROR 29656 --- [http-nio-8080-exec-4] com.controller.CustomErrorController     : Error with code 404. Be sure that your request is correct.
+2025-04-08 20:59:28.105  INFO 29656 --- [http-nio-8080-exec-8] com.controller.PersonController          : HTTP GET request received for /persons URL
+2025-04-08 20:59:28.105  INFO 29656 --- [http-nio-8080-exec-8] com.controller.PersonController          : Success. The list of persons is created
+2025-04-08 20:59:28.172  INFO 29656 --- [http-nio-8080-exec-9] com.controller.PersonController          : HTTP GET request received for /persons URL
+2025-04-08 20:59:28.173  INFO 29656 --- [http-nio-8080-exec-9] com.controller.PersonController          : Success. The list of persons is created
+2025-04-08 21:18:57.508  INFO 29656 --- [http-nio-8080-exec-6] com.controller.MedicalRecordsController  : HTTP GET request received for /medicalRecords URL
+2025-04-08 21:18:57.509  INFO 29656 --- [http-nio-8080-exec-6] com.controller.MedicalRecordsController  : Success. The list of medical records is received
+2025-04-08 21:20:11.587  INFO 29656 --- [http-nio-8080-exec-8] com.controller.FireStationController     : Success. The list of firestations is created
+2025-04-08 21:22:49.023  INFO 29656 --- [http-nio-8080-exec-2] com.controller.PersonController          : HTTP GET request received for /childAlert URL
+2025-04-08 21:22:49.025  INFO 29656 --- [http-nio-8080-exec-2] com.controller.PersonController          : Success.The list of children and other persons living at provided address was created.
+2025-04-08 21:23:49.992  INFO 29656 --- [http-nio-8080-exec-4] com.controller.FireStationController     : Success.The list of phone numbers was created.
+2025-04-08 21:25:09.127  INFO 29656 --- [http-nio-8080-exec-7] com.controller.FireStationController     : Success. Lists of households and personal information of each habitant in it were created.
+2025-04-08 21:25:25.212  INFO 29656 --- [http-nio-8080-exec-8] com.controller.PersonController          : HTTP GET request received for /childAlert URL
+2025-04-08 21:25:25.212  INFO 29656 --- [http-nio-8080-exec-8] com.controller.PersonController          : Success.The personal information for the provided person was found.

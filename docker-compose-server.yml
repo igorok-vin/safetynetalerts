@@ -1,0 +1,9 @@
+#for portfolio
+version: "3.9"
+services:
+  safetynetapp:
+    image: igorokvin/safetynetalerts
+    ports:
+      - 8080:8080
+    deploy:
+      replicas: 1
